@@ -1,0 +1,254 @@
+body{
+   background-image: linear-gradient(to right, rgb(135, 236, 244), rgb(203, 151, 223));
+}
+/* @keyframes showsbackground{ */
+    /* 0% {background-image:linear-gradient(to right, rgb(100, 239, 232) , rgb(68, 124, 121)) }
+  25%  {background-image:linear-gradient(to right, rgb(8, 251, 239) , rgb(82, 155, 197)) } */
+
+    /* from{
+        background-color: rgb(122, 201, 197);
+    }
+    to{
+        background-color: aquamarine;
+    }
+} */
+
+.box{
+    border: 1px solid black;
+    width: 100%;
+    height: 160px;
+    margin-top: 2px;
+    /* background-image: linear-gradient(to left , rgb(150, 210, 207) ,rgb(228, 162, 242)); */
+    background-image: url(/img/dci-4.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    
+}
+
+.box2{
+    border: 0px solid black;
+    width: 12%;
+    height: 99px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-image: url(/img/dci-5.jpeg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+
+
+    
+}
+
+
+.box3{
+    border: 0px solid black;
+    width: 100%;
+    height: 40px;
+    font-size: 170%;
+    text-align: center;
+    padding-top: -4px;
+    margin-top: 2px;
+    font-family: Georgia;
+    color: black;
+    background-color: rgb(206, 234, 235);
+}
+
+.searchsize{
+     width: 30%;
+     height: 40px;
+     font-size: 30px;
+}
+
+
+.search{
+   border: 1px solid black;
+   width:100% ;
+   height: 70px ;
+   padding-left:40%;
+   padding-top: 10px;
+   background-image: url(/img/dci-mountain1.jpg);
+   background-repeat: no-repeat ;
+   background-size: 100%;
+   
+
+}
+
+.box4{
+    border:0px solid black;
+    width: 100%;
+    height: 60px;
+    margin-top: 40px;
+    background-image: linear-gradient(to left , rgb(150, 210, 207) ,rgb(228, 162, 242));
+    padding-top:10px;
+    padding-left: 970px;
+    padding-bottom:20px;
+    font-size: 30px;
+    font-family: Georgia;
+    font:bold;
+    color: blue;
+
+   
+}
+
+/* .textborder{
+    border: 1px solid black;
+    width: 55%;
+    height: 46px;
+    margin-left: 21%;
+    margin-top: 2px;
+    font-size: 160%;
+    text-align: center;
+    padding-top: 20px;
+    font-family: Georgia;
+} */
+
+.inputs{
+    border: 0px solid black;
+    width: 100%;
+    height: 980px;
+    margin-top: 10px;
+
+    
+}
+
+.kit{
+    border: 0px solid black;
+    border-radius: 6px;
+    width: 13%;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 70px;
+    text-align: center;
+    font-size: 150%;
+    color:black;
+    font-family: bold;
+    /* background-color: rgb(248, 253, 253); */
+
+}
+
+.file{
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 13%;
+    height: 60px;
+    margin-top: 8px;
+    margin-left: 97px;
+    text-align: center;
+    font-family: bold;
+    font-size: 150%;
+    background-color: rgb(150, 210, 207);
+}
+
+
+
+::placeholder{
+    color:black;
+}
+
+ #Invoiceno{
+    margin-left:200px;
+}
+#Department{
+    margin-left:200px;
+}
+/*
+
+#InvoiceDate{
+    margin-left: 160px;
+
+}
+
+
+#Vendorname{
+    margin-left: 300;
+}
+
+#projectno{
+    margin-left: 7px;
+} */
+
+.submit{
+    border: 0px black solid;
+    border-radius:5px;
+    width:140px;
+    height: 50px;
+    margin-top: 1%;
+    margin-left: 10%;
+    font-size: 26px;
+    background-color: rgb(216, 213, 221);
+    cursor: pointer;
+    /* background-image: linear-gradient(to left, rgb(150, 191, 199) , rgb(190, 179, 219)); */
+    
+
+}
+
+/* .submit:hover{
+    background-color: rgb(26, 199, 37);
+} */
+
+.clear {
+    border: 0px solid black;
+    width:160px;
+    height: 50px;
+    border-radius:5px;
+    font-size: 27px;
+    margin-top: 3%;
+    margin-left: 4%;
+    background-color: rgb(216, 213, 221);
+    cursor: pointer;
+
+
+}
+
+
+/* 
+.clear:hover{
+    background-color: rgb(255, 0, 0);
+
+} */
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(216, 213, 221);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #Attachments{
+    margin-right: ;
+} */
+
+
+/* 
+#projectno{
+   margin-left: 320px;
+
+} */
+
+
+
+
+
+
+select:invalid{
+    color:#777
+}
