@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form11.css">
+    
+</head>
+<body>
+    <div class="img">
+        <img src="/dciprojectform/formimg11.PNG"  style="width: 100%; height:300px">
+         <p onclick="window.print()" id="printout">printout</p>
+    </div>
+
+    <div class="box">
+      
+    <div class="box1">
+       <img src="/dciprojectform/img/NAME.PNG" >
+        <select name="choice1" id="" class="choice1">
+            <option value="Mr.">MR.</option>
+            <option value="Ms.">Ms.</option>
+            <option value="Mrs.">Mrs.</option>
+        </select>
+        <input type="text"  name="name1" class="name1"><br> 
+      
+        <img src="/dciprojectform/img/DATEOFBIRTH.PNG" alt="">
+        <input type="text" name="dob" id="" onfocus="(this.type='date')" onblur="if(!this.value) this.type='text'" class="dateofbirth"><br>
+        <img src="/dciprojectform/img/FATHERORHUSBAND.PNG" alt="">
+        <input type="text" value="Mr" name="fatherandhusband" class="fatherandhusband"><br>
+        <img src="/dciprojectform/img/RELATIONSHIPINRESPECTOF.PNG" alt="">
+        <select name="choice3"  class="choice3">
+            <option value="Father">Father</option>
+            <option value="Husband">Husband</option>
+        </select><br>
+        <img src="/dciprojectform/img/GENDER.PNG" alt="">
+        <select name="choice4" class="choice4">
+            <option value="MALE">MALE</option>
+            <option value="FEMALE">FEMALE</option>
+            <option value="TRANSGENDER">TRANSGENDER</option>
+        </select><br>
+        <img src="/dciprojectform/img/MOBILENUMBER.PNG" alt="">
+        <input  type="text"  name="mobile"  class="mobile"><br>
+        <img src="/dciprojectform/img/EMAILID.PNG" alt="">
+        <input  type="email"  name="email" class="email"><br>
+        <img src="/dciprojectform/img/MEMBEROFEMPLOYEE'SPROVIDENTFUNDSCHEME.PNG" alt="">
+        <select name="choice5"class="choice5">
+            <option value="YES">YES</option>
+            <option value="NO">NO</option>
+        </select><br>
+        <img src="/dciprojectform/img/MEMBEROFEMPLOYEE'SPENSION.PNG" alt="">
+        <select name="choice6"  class="choice6"  >
+            <option value="YES">YES</option>
+            <option value="NO">NO</option>
+        </select><br>
+        <img src="/dciprojectform/img/MADATORILYFILLUP(PMD)101112.PNG" alt=""><br>
+        <!-- <label>IF RESPONSE TO ANY OR BOTH OF (8) (9) ABOVE YES, THEN MANDATORILY  FILL UP THE PREVIOUS EMPLOYEE  DETAILS AT(10,11 AND 12)<label> -->
+        <img src="/dciprojectform/img/UANORPREVIOUSMEMBERID.PNG" alt="">
+        <!-- <label>THE DETAILS OF THE UNIVERSAL ACCOUNT NUMBER (UAB) OR PREVIOUS PF MEMBER<label> -->
+        <select name="choice7" class="choice7">
+            <option>UAB 10</option>
+            <option>PREVIOUS PF MEMBER ID </option>
+        </select>
+        <input type="text" name="previousemployment" class="previousemployment"><br>
+        <!-- <label>DATE OF EXIT FOR PREVIOUS MEMBER ID</label> -->
+        <img src="/dciprojectform/img/DATEOFEXITBACKMEMBER.PNG" alt="">
+        <input type="text" name="dateprevious" id=""   onfocus="(this.type='date')" onblur="if(!this.value) this.type='text'"  class="dateprevious"  ><br><br>
+        <!-- <label>(A) IF SCHEME CERTIFICATE ISSUED FOR PREVIOUS EMPLOYEE, THEN SCHEME CERTIFICATE NUMBER ID:</label> -->
+        <img src="/dciprojectform/img/12.CERTIFICATE ISSUED FOR PREVIOUS EMPLOYMENT.PNG" alt="">
+         <input type="text" name="certificateforpreviousemployment"  class="certificateforpreviousemployment">
+        <!-- <label>(B) IF PENSION PAYMENT ORDER (PRO) ISSUED FOR PREVIOUS EMPLOYEE, THEN PPO NUMBER:</label> -->
+        <img src="/dciprojectform/img/12.(B)PERSIONPAYMENTORDERTHENPPONUMBER.PNG" alt="">
+        <input type="text" name="persionpayment" class="persionpayment" ><br><br>
+        <!-- <label>OTHER DETAILS</label>
+        <label>.IF THE REPLY TO (13) ABOVE IS YES, THEN ENTER THE DETAILS IN 13(A), 13(B) 13(C):</label><br><br>
+        <label>13(A) COUNTRY OF ORIGIN</label> -->
+        <img src="/dciprojectform/img/13.INTERNATIONWORK.PNG" alt="">
+        <select name="internationalworker" class="choice8">
+            <option value="YES">YES</option>
+            <option value="NO">NO</option>
+        </select><br>
+        <img src="/dciprojectform/img/13ACOUNTRYOFORIGIN.PNG" alt=""><br><br>
+        <input type="text" name="" id="" class="india">
+        <input type="text" name="" id="" class="otherindia"><br><br>
+        <img src="/dciprojectform/img/13B.PASSPORTNUMBER.PNG" alt="">
+        <input type="text" name="passportnumber" id="" class="passportnumber"><br><br>
+        <img src="/dciprojectform/img/13C.PASSPORTVALID.PNG" alt="">
+        <input type="text" name="passportvalid" id="" class="passportvalid">
+        <input type="text" name="passportvalid" id="" class="passportvalid1"><br><br>
+        <div>
+        <img src="/dciprojectform/img/14.EDUCATIONALQULIFICATION.PNG" alt=""><br><br>
+        <label for="option1" class="radio-label"><input type="radio" name="educationalqulification" id="option1" class="radio" value="illiterate" /></label>
+        <label for="option2" class="radio-label"><input type="radio" name="educationalqulification" id="option2" class="radio" value="non-matric" /></label>
+        <label for="option3" class="radio-label"><input type="radio" name="educationalqulification" id="option3" class="radio" value="matric"></label>
+        <label for="option4" class="radio-label"><input type="radio" name="educationalqulification" id="option4" class="radio" value="seniorsecondary" /></label>
+        <label for="option5" class="radio-label"><input type="radio" name="educationalqulification" id="option5" class="radio" value="graduate" /></label>
+        <label for="option6" class="radio-label"><input type="radio" name="educationalqulification" id="option6" class="radio" value="postgraduate" /></label>
+        <label for="option7" class="radio-label"><input type="radio" name="educationalqulification" id="option7" class="radio" value="doctor"></label>
+        <label for="option7" class="radio-label"><input type="radio" name="educationalqulification" id="option7" class="radio" value="technicalprofessional" /></label>
+        </div>
+        <img src="/dciprojectform/img/15.MARITALSTATUS.PNG" alt="">
+        <input type="radio" name="maritalstatus" id="" class="radio1" value="married">
+        <input type="radio" name="maritalstatus" id="" class="radio1" value="unmarried">
+        <input type="radio" name="maritalstatus" id="" class="radio1" value="widow/widower">
+        <input type="radio" name="maritalstatus" id="" class="radio1" value="divorcee"><br><br>
+        <img src="/dciprojectform/img/16.SPECIALLYABLED.PNG" alt="">
+        <input type="radio" name="specially" id="" class="radio2" value="yes" >
+        <input type="radio" name="specially" id="" class="radio2" value="no" >
+        <input type="checkbox" name="abled" id="" class="check" value="Locomotive">
+        <input type="checkbox" name="abled" id="" class="check" value="visual" />
+        <input type="checkbox" name="abled" id="" class="check" value="hearing" /><br><br>
+        <img src="/dciprojectform/img/17.KYCDETAILS.PNG" alt=""><br>
+        <input type="text" id="" name="" class="kyc">
+        <input type="text" id="" name="" class="kyc">
+        <input type="text" id="" name="" class="kyc"><br><br>
+        <input type="text" id="" name="" class="kyc">
+        <input type="text" id="" name="" class="kyc">
+        <input type="text" id="" name="" class="kyc"><br><br>
+        <input type="text" id="" name="" class="kyc">
+        <input type="text" id="" name="" class="kyc">
+        <input type="text" id="" name="" class="kyc"><br><br>
+        <input type="text" id="" name="" class="kyc">
+        <input type="text" id="" name="" class="kyc">
+        <input type="text" id="" name="" class="kyc"><br><br>
+        <input type="text" id="" name="" class="kyc">
+        <input type="text" id="" name="" class="kyc">
+        <input type="text" id="" name="" class="kyc"><br><br>
+        <input type="text" id="" name="" class="kyc">
+        <input type="text" id="" name="" class="kyc">
+        <input type="text" id="" name="" class="kyc"><br><br>
+        <input type="text" id="" name="" class="kyc">
+        <input type="text" id="" name="" class="kyc">
+        <input type="text" id="" name="" class="kyc"><br><br>
+        <input type="text" id="" name="" class="kyc">
+        <input type="text" id="" name="" class="kyc">
+        <input type="text" id="" name="" class="kyc"><br><br>
+        <!-- <input type="text" id="" name="" class="kyc"> -->
+
+        <img src="/dciprojectform/img/DECLARATIONBYPRESENTEMPLOYER.PNG" alt=""><br>
+        <img src="/dciprojectform/img/DECLARATIONBYPRESENTEMPLOYER1.PNG" alt=""><br>
+
+        <!-- <input type="text" class="" name=""> -->
+        
+
+        
+
+
+        
+
+
+        
+        
+
+
+
+    </div>
+        
+
+
+
+
+        
+        
+
+        
+
+
+    
+      
+    </div>
+
+
+    <!-- <script>
+        window.print();
+    </script> -->
+</body>
+</html>

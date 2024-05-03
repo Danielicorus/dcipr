@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../../../.vscode"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../checkshow"
+		},
+		{
+			"path": "../../dciproject1"
+		},
+		{
+			"path": "../../dciprojectform"
+		},
+		{
+			"path": "../../dciprojectform1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "dciproject"
+	}
+}
